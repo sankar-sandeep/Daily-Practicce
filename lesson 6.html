@@ -6,8 +6,126 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="">
+
+    <style>
+        .photo1{
+            width: 250px;
+            height: 250px;
+            border: none;
+            border-radius: 50px;
+           object-fit: cover;
+           
+        }
+
+        .search{
+            background-color: white;
+            color: rgb(96, 96, 96);
+            border-width: 1px;
+            border-color: rgb(221, 210, 210);
+            border-style: solid ;
+            border-radius: 5px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 10px;
+            font-family: Arial;
+            margin-right:   150px;
+        }
+
+        .search1{
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 200px;
+            border-radius: 50px;
+            border-style: solid;
+            border: none;
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+            transition: 0.15s;
+        }
+        .search1:hover{
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+     }
+
+     .mail{
+        font-family: Arial;
+        margin-bottom: 5px;
+        color: rgb(96, 96, 96);
+     }
+
+     .policy{
+        font-family: Arial;
+        color: rgb(96, 96, 96);
+     }
+
+     .email{
+        padding-right: 225px;
+     }
+
+     .agree-button{
+        background-color: rgba(14, 112, 224, 0.944);
+        color: white;
+        border: none;padding-left: 140px;
+        padding-right: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 70px;
+        cursor: pointer;
+     }
+
+     .photo2{
+       border-radius: 600px;
+       height: 50px;
+       width: 50px;
+       object-fit: cover;
+       vertical-align: middle;
+      
+     }
+
+     .what{
+        font-family: Arial;
+        color: rgb(96, 96, 96);
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px;
+     }
+
+     .tweet{
+         background-color: rgb(47, 141, 235);
+        color: white;
+        font-weight: bold;
+        height: 34px;
+        width: 74px;
+        font-size: 15px;
+        margin-left: 180px;
+        cursor: pointer;
+        border: none;
+        border-radius: 18px;
+        vertical-align: top;
+        vertical-align: middle;
+     }
+    </style>
 </head>
 <body>
+
+   <img class="photo1" src="images/photo.jpg">
+   <br><br>
+
+   <input class="search" type="text" placeholder="Search">
+   <input class="search1"  type="text" placeholder="Search Google or type">
+
+   <br><br><br>
+
+   <p class="mail">Email</p>
+   <input class="email" type="email">
+   <p class="policy">By clicking Agree & Join, you agree to Privacy Policy.</p>
+   <button class="agree-button">Agree & Join</button>
+
+   <br><br><br>
+
+   <img class="photo2" src="images/photo.jpg" alt="">
+   <p class="what">What's happening?</p>
+
+   <button class="tweet">Tweet</button>
     
 </body>
 </html>
